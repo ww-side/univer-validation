@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./",
+    "outDir": "./dist",
+    "lib": ["DOM", "es2022"],
+    "types": ["vite/client", "vitest/globals"],
+    "jsx": "react-jsx",
+    "target": "es2022",
+    "module": "es2022",
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "skipLibCheck": true,
+    "paths": {
+      "~/*": ["./src/*"]
+    }
+  },
+  "include": ["src"],
+  "exclude": ["./node_modules", "./dist"]
+}
